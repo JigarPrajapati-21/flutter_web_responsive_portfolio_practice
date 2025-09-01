@@ -265,7 +265,7 @@ class ProjectSectionDesktop extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
-                  height: screenHeight /2,
+                  // height: screenHeight /2,
                   width: screenWidth * 0.35,
                   margin: const EdgeInsets.all(10),
                   decoration: const BoxDecoration(
@@ -274,7 +274,7 @@ class ProjectSectionDesktop extends StatelessWidget {
 
                     image: DecorationImage(
                       image: AssetImage("assets/4.png"),
-                      fit: BoxFit.contain,
+                      fit: BoxFit.cover,
                     ),
                   ),
                 ),
@@ -366,14 +366,14 @@ class ProjectSectionDesktop extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  height: screenHeight/2,
+                  // height: screenHeight/2,
                   width: screenWidth * 0.35,
                   margin: const EdgeInsets.all(10),
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(20)),
                     image: DecorationImage(
                       image: AssetImage("assets/6.png"),
-                      fit: BoxFit.contain,                  ),
+                      fit: BoxFit.cover,                  ),
                   ),
                 ),
               ],
@@ -390,7 +390,7 @@ class ProjectSectionDesktop extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
-                  height: screenHeight/2,
+                  // height: screenHeight/2,
                   width: screenWidth * 0.35,
                   margin: const EdgeInsets.all(10),
                   decoration: const BoxDecoration(
@@ -398,7 +398,7 @@ class ProjectSectionDesktop extends StatelessWidget {
 
                     image: DecorationImage(
                       image: AssetImage("assets/5.png"),
-                      fit: BoxFit.contain,                  ),
+                      fit: BoxFit.cover,                  ),
                   ),
                 ),
                 Expanded(
