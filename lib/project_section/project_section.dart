@@ -265,7 +265,7 @@ class ProjectSectionDesktop extends StatelessWidget {
               children: [
 
                 Expanded(child: Container(
-                  height: 200,
+                  // height: 200,
                   decoration: BoxDecoration(
                     image: DecorationImage(image: AssetImage("assets/4.png"),fit: BoxFit.contain),
                   ),
