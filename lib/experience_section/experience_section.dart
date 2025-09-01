@@ -199,7 +199,7 @@ class ExperienceSectionMobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(top: 20, bottom: 20, left: 0, right: 0),
+      padding: EdgeInsets.all(20),
       color: Colors.black,
       width: double.infinity,
       // height: 716,

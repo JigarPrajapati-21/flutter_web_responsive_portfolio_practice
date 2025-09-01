@@ -37,17 +37,16 @@ class SkillsSectionDesktop extends StatelessWidget {
 
           SizedBox(height: 40,),
 
-
           Wrap(
             alignment: WrapAlignment.center,
             crossAxisAlignment: WrapCrossAlignment.start,
             runAlignment: WrapAlignment.start,
             direction: Axis.horizontal,
-            spacing: 30, // Horizontal spacing between items
-            runSpacing: 10, // Vertical spacing between rows
+            spacing: 20, // Even horizontal spacing between items
+            runSpacing: 20, // Even vertical spacing between rows
             children: [
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -73,7 +72,7 @@ class SkillsSectionDesktop extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -99,7 +98,7 @@ class SkillsSectionDesktop extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -125,7 +124,7 @@ class SkillsSectionDesktop extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -151,7 +150,7 @@ class SkillsSectionDesktop extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -177,7 +176,7 @@ class SkillsSectionDesktop extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -203,7 +202,7 @@ class SkillsSectionDesktop extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -229,7 +228,7 @@ class SkillsSectionDesktop extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -255,7 +254,7 @@ class SkillsSectionDesktop extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -281,7 +280,7 @@ class SkillsSectionDesktop extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -307,7 +306,7 @@ class SkillsSectionDesktop extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -333,7 +332,7 @@ class SkillsSectionDesktop extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -361,6 +360,331 @@ class SkillsSectionDesktop extends StatelessWidget {
 
             ],
           ),
+
+
+          // Wrap(
+          //   alignment: WrapAlignment.center,
+          //   crossAxisAlignment: WrapCrossAlignment.start,
+          //   runAlignment: WrapAlignment.start,
+          //   direction: Axis.horizontal,
+          //   spacing: 30, // Horizontal spacing between items
+          //   runSpacing: 10, // Vertical spacing between rows
+          //   children: [
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-git.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Git",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-javascript.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("JS",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-nest.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Nest",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-saas.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("SaaS",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-socket.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Socket",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-storybook.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("StoryBook",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-git.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Git",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-javascript.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("JS",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-nest.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Nest",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-saas.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("SaaS",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-socket.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Socket",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 30,vertical: 15),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-storybook.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("StoryBook",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //
+          //   ],
+          // ),
           SizedBox(height: 40,),
 
 
@@ -371,7 +695,7 @@ class SkillsSectionDesktop extends StatelessWidget {
 }
 
 class SkillsSectionMobile extends StatelessWidget {
-  const SkillsSectionMobile({super.key});
+   SkillsSectionMobile({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -391,16 +715,19 @@ class SkillsSectionMobile extends StatelessWidget {
 
           SizedBox(height: 30,),
 
+
+
+
           Wrap(
             alignment: WrapAlignment.center,
             crossAxisAlignment: WrapCrossAlignment.start,
             runAlignment: WrapAlignment.start,
             direction: Axis.horizontal,
-            spacing: 30, // Horizontal spacing between items
-            runSpacing: 10, // Vertical spacing between rows
+            spacing: 20, // Even horizontal spacing between items
+            runSpacing: 20, // Even vertical spacing between rows
             children: [
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -410,8 +737,8 @@ class SkillsSectionMobile extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      height: 46,
-                      width: 46,
+                      height: 56,
+                      width: 56,
                       decoration: BoxDecoration(
                           image: DecorationImage(image: AssetImage("assets/icon-git.png"))
                       ),
@@ -419,14 +746,14 @@ class SkillsSectionMobile extends StatelessWidget {
 
                     Text("Git",style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 20
+                        fontSize: 22
                     ),),
 
                   ],
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -436,8 +763,8 @@ class SkillsSectionMobile extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      height: 46,
-                      width: 46,
+                      height: 56,
+                      width: 56,
                       decoration: BoxDecoration(
                           image: DecorationImage(image: AssetImage("assets/icon-javascript.png"))
                       ),
@@ -445,14 +772,14 @@ class SkillsSectionMobile extends StatelessWidget {
 
                     Text("JS",style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 20
+                        fontSize: 22
                     ),),
 
                   ],
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -462,8 +789,8 @@ class SkillsSectionMobile extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      height: 46,
-                      width: 46,
+                      height: 56,
+                      width: 56,
                       decoration: BoxDecoration(
                           image: DecorationImage(image: AssetImage("assets/icon-nest.png"))
                       ),
@@ -471,14 +798,14 @@ class SkillsSectionMobile extends StatelessWidget {
 
                     Text("Nest",style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 20
+                        fontSize: 22
                     ),),
 
                   ],
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -488,8 +815,8 @@ class SkillsSectionMobile extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      height: 46,
-                      width: 46,
+                      height: 56,
+                      width: 56,
                       decoration: BoxDecoration(
                           image: DecorationImage(image: AssetImage("assets/icon-saas.png"))
                       ),
@@ -497,14 +824,14 @@ class SkillsSectionMobile extends StatelessWidget {
 
                     Text("SaaS",style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 20
+                        fontSize: 22
                     ),),
 
                   ],
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -514,8 +841,8 @@ class SkillsSectionMobile extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      height: 46,
-                      width: 46,
+                      height: 56,
+                      width: 56,
                       decoration: BoxDecoration(
                           image: DecorationImage(image: AssetImage("assets/icon-socket.png"))
                       ),
@@ -523,14 +850,14 @@ class SkillsSectionMobile extends StatelessWidget {
 
                     Text("Socket",style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 20
+                        fontSize: 22
                     ),),
 
                   ],
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -540,8 +867,8 @@ class SkillsSectionMobile extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      height: 46,
-                      width: 46,
+                      height: 56,
+                      width: 56,
                       decoration: BoxDecoration(
                           image: DecorationImage(image: AssetImage("assets/icon-storybook.png"))
                       ),
@@ -549,15 +876,14 @@ class SkillsSectionMobile extends StatelessWidget {
 
                     Text("StoryBook",style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 20
+                        fontSize: 22
                     ),),
 
                   ],
                 ),
               ),
-
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -567,8 +893,8 @@ class SkillsSectionMobile extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      height: 46,
-                      width: 46,
+                      height: 56,
+                      width: 56,
                       decoration: BoxDecoration(
                           image: DecorationImage(image: AssetImage("assets/icon-git.png"))
                       ),
@@ -576,14 +902,14 @@ class SkillsSectionMobile extends StatelessWidget {
 
                     Text("Git",style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 20
+                        fontSize: 22
                     ),),
 
                   ],
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -593,8 +919,8 @@ class SkillsSectionMobile extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      height: 46,
-                      width: 46,
+                      height: 56,
+                      width: 56,
                       decoration: BoxDecoration(
                           image: DecorationImage(image: AssetImage("assets/icon-javascript.png"))
                       ),
@@ -602,14 +928,14 @@ class SkillsSectionMobile extends StatelessWidget {
 
                     Text("JS",style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 20
+                        fontSize: 22
                     ),),
 
                   ],
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -619,8 +945,8 @@ class SkillsSectionMobile extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      height: 46,
-                      width: 46,
+                      height: 56,
+                      width: 56,
                       decoration: BoxDecoration(
                           image: DecorationImage(image: AssetImage("assets/icon-nest.png"))
                       ),
@@ -628,14 +954,14 @@ class SkillsSectionMobile extends StatelessWidget {
 
                     Text("Nest",style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 20
+                        fontSize: 22
                     ),),
 
                   ],
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -645,8 +971,8 @@ class SkillsSectionMobile extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      height: 46,
-                      width: 46,
+                      height: 56,
+                      width: 56,
                       decoration: BoxDecoration(
                           image: DecorationImage(image: AssetImage("assets/icon-saas.png"))
                       ),
@@ -654,14 +980,14 @@ class SkillsSectionMobile extends StatelessWidget {
 
                     Text("SaaS",style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 20
+                        fontSize: 22
                     ),),
 
                   ],
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -671,8 +997,8 @@ class SkillsSectionMobile extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      height: 46,
-                      width: 46,
+                      height: 56,
+                      width: 56,
                       decoration: BoxDecoration(
                           image: DecorationImage(image: AssetImage("assets/icon-socket.png"))
                       ),
@@ -680,14 +1006,14 @@ class SkillsSectionMobile extends StatelessWidget {
 
                     Text("Socket",style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 20
+                        fontSize: 22
                     ),),
 
                   ],
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -697,8 +1023,8 @@ class SkillsSectionMobile extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      height: 46,
-                      width: 46,
+                      height: 56,
+                      width: 56,
                       decoration: BoxDecoration(
                           image: DecorationImage(image: AssetImage("assets/icon-storybook.png"))
                       ),
@@ -706,7 +1032,7 @@ class SkillsSectionMobile extends StatelessWidget {
 
                     Text("StoryBook",style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 20
+                        fontSize: 22
                     ),),
 
                   ],
@@ -715,6 +1041,332 @@ class SkillsSectionMobile extends StatelessWidget {
 
             ],
           ),
+
+
+          // Wrap(
+          //   alignment: WrapAlignment.center,
+          //   crossAxisAlignment: WrapCrossAlignment.start,
+          //   runAlignment: WrapAlignment.start,
+          //   direction: Axis.horizontal,
+          //   spacing: 30, // Horizontal spacing between items
+          //   runSpacing: 10, // Vertical spacing between rows
+          //   children: [
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 46,
+          //             width: 46,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-git.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Git",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 20
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 46,
+          //             width: 46,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-javascript.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("JS",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 20
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 46,
+          //             width: 46,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-nest.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Nest",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 20
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 46,
+          //             width: 46,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-saas.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("SaaS",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 20
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 46,
+          //             width: 46,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-socket.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Socket",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 20
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 46,
+          //             width: 46,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-storybook.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("StoryBook",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 20
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 46,
+          //             width: 46,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-git.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Git",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 20
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 46,
+          //             width: 46,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-javascript.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("JS",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 20
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 46,
+          //             width: 46,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-nest.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Nest",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 20
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 46,
+          //             width: 46,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-saas.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("SaaS",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 20
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 46,
+          //             width: 46,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-socket.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Socket",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 20
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 46,
+          //             width: 46,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-storybook.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("StoryBook",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 20
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //
+          //   ],
+          // ),
 
 
 
@@ -756,11 +1408,11 @@ class SkillsSectionTablet extends StatelessWidget {
             crossAxisAlignment: WrapCrossAlignment.start,
             runAlignment: WrapAlignment.start,
             direction: Axis.horizontal,
-            spacing: 30, // Horizontal spacing between items
-            runSpacing: 10, // Vertical spacing between rows
+            spacing: 20, // Even horizontal spacing between items
+            runSpacing: 20, // Even vertical spacing between rows
             children: [
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -786,7 +1438,7 @@ class SkillsSectionTablet extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -812,7 +1464,7 @@ class SkillsSectionTablet extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -838,7 +1490,7 @@ class SkillsSectionTablet extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -864,7 +1516,7 @@ class SkillsSectionTablet extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -890,7 +1542,7 @@ class SkillsSectionTablet extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -916,7 +1568,7 @@ class SkillsSectionTablet extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -942,7 +1594,7 @@ class SkillsSectionTablet extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -968,7 +1620,7 @@ class SkillsSectionTablet extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -994,7 +1646,7 @@ class SkillsSectionTablet extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -1020,7 +1672,7 @@ class SkillsSectionTablet extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -1046,7 +1698,7 @@ class SkillsSectionTablet extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                padding: EdgeInsets.all(20), // Even padding on all sides
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   color: Colors.white,
@@ -1074,6 +1726,331 @@ class SkillsSectionTablet extends StatelessWidget {
 
             ],
           ),
+
+
+          // Wrap(
+          //   alignment: WrapAlignment.center,
+          //   crossAxisAlignment: WrapCrossAlignment.start,
+          //   runAlignment: WrapAlignment.start,
+          //   direction: Axis.horizontal,
+          //   spacing: 30, // Horizontal spacing between items
+          //   runSpacing: 10, // Vertical spacing between rows
+          //   children: [
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-git.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Git",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-javascript.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("JS",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-nest.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Nest",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-saas.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("SaaS",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-socket.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Socket",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-storybook.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("StoryBook",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-git.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Git",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-javascript.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("JS",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-nest.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Nest",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-saas.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("SaaS",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-socket.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("Socket",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //     Container(
+          //       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(5),
+          //         color: Colors.white,
+          //         border: Border.all(color: Colors.black, width: 2),
+          //       ),
+          //       child: Column(
+          //         mainAxisAlignment: MainAxisAlignment.center,
+          //         children: [
+          //           Container(
+          //             height: 56,
+          //             width: 56,
+          //             decoration: BoxDecoration(
+          //                 image: DecorationImage(image: AssetImage("assets/icon-storybook.png"))
+          //             ),
+          //           ),
+          //
+          //           Text("StoryBook",style: TextStyle(
+          //               fontWeight: FontWeight.bold,
+          //               fontSize: 22
+          //           ),),
+          //
+          //         ],
+          //       ),
+          //     ),
+          //
+          //   ],
+          // ),
           SizedBox(height: 30,),
 
 

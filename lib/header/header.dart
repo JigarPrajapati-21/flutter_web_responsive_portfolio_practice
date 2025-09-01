@@ -202,7 +202,7 @@ class MobileHeader extends StatelessWidget {
         backgroundColor: Colors.white,
         child: SafeArea(
           child: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 10),
+            padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
