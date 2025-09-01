@@ -4,6 +4,18 @@ import 'package:responsive_builder/responsive_builder.dart';
 import 'header/header.dart';
 
 void main() {
+
+  WidgetsFlutterBinding.ensureInitialized();
+
+  ///  Set custom breakpoints
+  ResponsiveSizingConfig.instance.setCustomBreakpoints(
+    const ScreenBreakpoints(
+      desktop: 900,   // Desktop layout starts from 900px width
+      tablet: 600,    // Tablet layout between 600px and 899px
+      watch: 250,
+    ),
+  );
+
   runApp(const MyApp());
 }
 
