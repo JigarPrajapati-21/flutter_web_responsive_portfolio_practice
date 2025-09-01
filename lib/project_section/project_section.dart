@@ -259,32 +259,22 @@ class ProjectSectionDesktop extends StatelessWidget {
 
           // First Project
           Container(
-            height: 415,
             color: Colors.blueAccent,
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-
-                Expanded(child: Container(
-                  // height: 200,
-                  decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage("assets/4.png"),fit: BoxFit.contain),
+                Container(
+                  height: screenHeight * 0.4,
+                  width: screenWidth * 0.35,
+                  margin: const EdgeInsets.all(10),
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(20)),
+                    image: DecorationImage(
+                      image: AssetImage("assets/4.png"),
+                      fit: BoxFit.cover,
+                    ),
                   ),
-                )),
-
-
-                // Container(
-                //   height: screenHeight * 0.4,
-                //   width: screenWidth * 0.35,
-                //   margin: const EdgeInsets.all(10),
-                //   decoration: const BoxDecoration(
-                //     borderRadius: BorderRadius.all(Radius.circular(20)),
-                //     image: DecorationImage(
-                //       image: AssetImage("assets/4.png"),
-                //       fit: BoxFit.cover,
-                //     ),
-                //   ),
-                // ),
+                ),
                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
@@ -396,8 +386,8 @@ class ProjectSectionDesktop extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
-                  height: screenHeight * 0.5,
-                  width: screenWidth * 0.25,
+                  height: screenHeight * 0.4,
+                  width: screenWidth * 0.35,
                   margin: const EdgeInsets.all(10),
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(20)),
@@ -454,7 +444,6 @@ class ProjectSectionDesktop extends StatelessWidget {
     );
   }
 }
-
 
 // class ProjectSectionDesktop extends StatelessWidget {
 //   const ProjectSectionDesktop({super.key});
