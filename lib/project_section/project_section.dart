@@ -647,7 +647,7 @@ class ProjectSectionDesktop extends StatelessWidget {
 
 
           Container(
-            color: Colors.white,
+            color: Colors.red,
             padding: EdgeInsets.symmetric(horizontal: screenWidth / 20),
 
             width: double.infinity,
@@ -658,8 +658,8 @@ class ProjectSectionDesktop extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Container(
-                    height: 433,
-                    width: 441,
+                    height: 400,
+                    width: 400,
                     decoration: BoxDecoration(
                       image: DecorationImage(
                         image: AssetImage("assets/5.png"),
@@ -672,41 +672,31 @@ class ProjectSectionDesktop extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "The unseen of spending three \nyears at Pixelgrade",
+                          "01",
                           style: TextStyle(
-                            fontSize: screenWidth / 40,
-                            color: Colors.black,
+                            fontSize: 30,
                             fontWeight: FontWeight.bold,
-                            height: 1.2,
+                            color: Colors.white,
                           ),
                         ),
-
+                        SizedBox(height: 20),
                         Text(
-                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.",
+                          "Crypto Screener Application",
                           style: TextStyle(
-                            fontSize: 16,
-                            color: Colors.grey,
-                            height: 1.5,
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
                           ),
                         ),
-
-                        SizedBox(height: 30),
-
-                        ElevatedButton(
-                          onPressed: () {},
-                          style: ElevatedButton.styleFrom(
-                            foregroundColor: Colors.white,
-                            // backgroundColor: AppColors.primary,
-                            padding: EdgeInsets.symmetric(
-                              horizontal: 30,
-                              vertical: 20,
-                            ),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(10),
-                            ),
-                          ),
-                          child: Text("Learn more"),
+                        SizedBox(height: 20),
+                        Text(
+                          "The Crypto Screener Application is a powerful tool designed to help users track, analyze, and filter cryptocurrencies in real time based on various parameters such as price, market capitalization, trading volume, percentage change, and more. The application provides an intuitive and responsive interface where users can search and sort coins, view detailed charts, and monitor live market trends. It allows investors and traders to customize filters and watchlists according to their preferences, making it easier to identify top-performing coins or spot potential investment opportunities. With real-time updates and an easy-to-use dashboard, the Crypto Screener Application simplifies crypto market analysis for beginners as well as experienced traders.",
+                          textAlign: TextAlign.justify,
+                          style: TextStyle(color: Colors.grey),
                         ),
+                        SizedBox(height: 20),
+                        Icon(Icons.open_in_new,
+                            color: Colors.white, size: 22),
                       ],
                     ),
                   ),
