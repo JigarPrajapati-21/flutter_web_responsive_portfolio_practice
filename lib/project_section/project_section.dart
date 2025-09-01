@@ -259,6 +259,7 @@ class ProjectSectionDesktop extends StatelessWidget {
 
           // First Project
           Container(
+            height: 515,
             color: Colors.blueAccent,
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
