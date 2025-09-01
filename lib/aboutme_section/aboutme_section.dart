@@ -23,7 +23,7 @@ class AboutmeSectionDesktop extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.only(top: 20, bottom: 20, left: 80, right: 80),
-      color: Colors.white,
+      color: Colors.greenAccent,
       width: double.infinity,
       height: double.minPositive,
       // height: 716,
