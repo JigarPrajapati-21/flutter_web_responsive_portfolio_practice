@@ -25,6 +25,7 @@ class AboutmeSectionDesktop extends StatelessWidget {
       padding: EdgeInsets.only(top: 20, bottom: 20, left: 80, right: 80),
       color: Colors.white,
       width: double.infinity,
+      height: double.minPositive,
       // height: 716,
       child: Column(
         mainAxisSize: MainAxisSize.min,
