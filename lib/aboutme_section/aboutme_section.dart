@@ -41,7 +41,7 @@ class AboutmeSectionDesktop extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.symmetric(vertical: 30),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
                     height: 400,
