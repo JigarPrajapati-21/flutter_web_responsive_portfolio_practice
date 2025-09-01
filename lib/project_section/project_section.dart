@@ -263,18 +263,27 @@ class ProjectSectionDesktop extends StatelessWidget {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Container(
-                  height: screenHeight * 0.4,
-                  width: screenWidth * 0.35,
-                  margin: const EdgeInsets.all(10),
-                  decoration: const BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(20)),
-                    image: DecorationImage(
-                      image: AssetImage("assets/4.png"),
-                      fit: BoxFit.cover,
-                    ),
+
+                Expanded(child: Container(
+                  height: 530,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(image: AssetImage("assets/4.png"),fit: BoxFit.contain),
                   ),
-                ),
+                )),
+
+
+                // Container(
+                //   height: screenHeight * 0.4,
+                //   width: screenWidth * 0.35,
+                //   margin: const EdgeInsets.all(10),
+                //   decoration: const BoxDecoration(
+                //     borderRadius: BorderRadius.all(Radius.circular(20)),
+                //     image: DecorationImage(
+                //       image: AssetImage("assets/4.png"),
+                //       fit: BoxFit.cover,
+                //     ),
+                //   ),
+                // ),
                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
