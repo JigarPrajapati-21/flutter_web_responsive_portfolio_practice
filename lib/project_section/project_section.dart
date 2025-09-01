@@ -266,7 +266,7 @@ class ProjectSectionDesktop extends StatelessWidget {
               children: [
                 Container(
                   height: screenHeight/2,
-                  width: screenWidth * 0.35,
+                  width: screenWidth /3,
                   // height: screenHeight /3,
                   // width: screenWidth /2,
                   margin: const EdgeInsets.all(10),
