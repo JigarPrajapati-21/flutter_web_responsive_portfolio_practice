@@ -647,7 +647,7 @@ class ProjectSectionDesktop extends StatelessWidget {
 
 
           Container(
-            color: Colors.blueGrey,
+            color: Colors.deepPurple,
             padding: EdgeInsets.symmetric(horizontal: screenWidth / 20),
 
             width: double.infinity,
