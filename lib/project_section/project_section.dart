@@ -267,7 +267,7 @@ class ProjectSectionDesktop extends StatelessWidget {
                 Container(
                   height: screenHeight /2.2,
                   width: screenWidth /1.5,
-                  margin: const EdgeInsets.all(10),
+                  margin: const EdgeInsets.all(0),
                   decoration: const BoxDecoration(
                     // color: Colors.greenAccent,
                     borderRadius: BorderRadius.all(Radius.circular(20)),
