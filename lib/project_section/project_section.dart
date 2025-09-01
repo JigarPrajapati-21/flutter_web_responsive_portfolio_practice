@@ -265,8 +265,10 @@ class ProjectSectionDesktop extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
-                  height: screenHeight /3,
-                  width: screenWidth /2,
+                  height: screenHeight/2,
+                  width: screenWidth * 0.35,
+                  // height: screenHeight /3,
+                  // width: screenWidth /2,
                   margin: const EdgeInsets.all(10),
                   decoration: const BoxDecoration(
                     // color: Colors.greenAccent,
