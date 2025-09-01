@@ -44,14 +44,16 @@ class AboutmeSectionDesktop extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    height: 400,
-                    width: 400,
+                    height: 350,
+                    width: 350,
                     decoration: BoxDecoration(
                       image: DecorationImage(
                         image: AssetImage("assets/3.png"),
                       ),
                     ),
                   ),
+
+                  SizedBox(width: 20,),
 
                   Flexible(
                     child: Column(
