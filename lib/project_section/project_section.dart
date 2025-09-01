@@ -651,7 +651,7 @@ class ProjectSectionDesktop extends StatelessWidget {
           // First Project
 
           Container(
-            color: Colors.yellowAccent,
+            color: Colors.black,
             padding: EdgeInsets.symmetric(horizontal: screenWidth / 20),
 
             width: double.infinity,
@@ -777,7 +777,7 @@ class ProjectSectionDesktop extends StatelessWidget {
           // Second Project
 
           Container(
-            color: Colors.yellowAccent,
+            color: Colors.black,
             padding: EdgeInsets.symmetric(horizontal: screenWidth / 20),
 
             width: double.infinity,
@@ -787,15 +787,6 @@ class ProjectSectionDesktop extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Container(
-                    height: 400,
-                    width: 400,
-                    decoration: BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage("assets/6.png"),
-                      ),
-                    ),
-                  ),
 
                   Flexible(
                     child: Column(
@@ -830,6 +821,18 @@ class ProjectSectionDesktop extends StatelessWidget {
                       ],
                     ),
                   ),
+
+                  Container(
+                    height: 400,
+                    width: 400,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage("assets/6.png"),
+                      ),
+                    ),
+                  ),
+
+
                 ],
               ),
             ),
@@ -899,7 +902,7 @@ class ProjectSectionDesktop extends StatelessWidget {
           // Third Project
 
           Container(
-            color: Colors.yellowAccent,
+            color: Colors.black,
             padding: EdgeInsets.symmetric(horizontal: screenWidth / 20),
 
             width: double.infinity,
